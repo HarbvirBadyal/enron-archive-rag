@@ -1,0 +1,68 @@
+# ============================================================
+# Enron Archive RAG - Git Ignore
+# ============================================================
+
+# Large datasets and local research data
+/enron_clean.csv
+/emails.csv
+/enron_subset_8000.csv
+/enron_stratified_sample.csv
+/data/*.csv
+/results/*.csv
+
+# Precomputed retrieval indexes and embeddings
+/full_corpus_tfidf_matrix.npz
+/full_corpus_tfidf_vectorizer.joblib
+/e5_embeddings_final/
+
+*.npy
+*.npz
+*.faiss
+*.joblib
+
+# Model weights and checkpoints
+/qwen_enron_lora/
+
+*.safetensors
+*.pt
+*.pth
+*.bin
+
+# Python virtual environments
+.venv/
+venv/
+
+# Python caches and compiled files
+__pycache__/
+*.py[cod]
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Editor configuration
+.vscode/
+.idea/
+
+# Testing and development caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local model caches
+.cache/
+
+# Temporary and generated files
+generation_retrieval_temp.json
+*.tmp
+*.temp
+embedding_progress.csv
+e5_chunking_grid_results_250_questions.csv
+
+# macOS files
+.DS_Store

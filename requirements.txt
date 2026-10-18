@@ -1,0 +1,15 @@
+# Dependencies for the Streamlit RAG application
+
+streamlit
+pandas
+numpy
+scipy
+scikit-learn
+joblib
+pyarrow
+faiss-cpu
+torch
+transformers
+sentence-transformers
+accelerate
+ipython

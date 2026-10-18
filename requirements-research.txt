@@ -1,0 +1,9 @@
+# Additional dependencies for research and experiments
+-r requirements.txt
+
+jupyterlab
+matplotlib
+seaborn
+datasets
+peft
+trl
